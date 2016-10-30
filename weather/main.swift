@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
-
+print("Hello, Weather!")
+for args in CommandLine.arguments {
+    print(args)
+}
